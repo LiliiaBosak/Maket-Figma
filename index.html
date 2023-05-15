@@ -6,78 +6,90 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Figmaland-Business Landing page</title>
-  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
-  <header>
-    <div class="background">
-      <img src="img/background.jpg" alt="background">
+  <header class="header">
+    <div class="header__container">
+    <div class="header__background">
+      <img class="background__cover" src="img/secondbackground.png" alt="background"
     </div>
-    <nav>
-      <div class="menu">
-        <a href="#">Home</a>
-        <a href="#">Product</a>
-        <a href="#">Pricing</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-      </div>
-    </nav>
+      <nav class="header__nav">
+        <div class="header__logo-container">
+          <img class="header__logo" src="img/logo.svg" alt="logo">
+        </div>
+      <ul class="header__menu">
+        <li class="header__menu-item">
+          <a href="#" class="header__menu-link">Home</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#" class="header__menu-link">Product</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#" class="header__menu-link">Pricing</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#" class="header__menu-link">About</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#" class="header__menu-link">Contact</a>
+        </li>
     <div class="burger">
-     <img src="img/burger.svg" alt="burger">
+     <img  class="burger__icon" src="img/burger.svg" alt="burger">
     </div>
     <div class="icons__container">
-      <img class="logo" src="img/logo.png" alt="logo">
       <div class="social-icons">
-        <img src="img/twitter.png" alt="twitter icon">
-        <img src="img/facebook.png" alt="facebook icon">
-        <img src="img/instagram.png" alt="instagram icon">
+        <img src="img/twitter.svg" alt="twitter icon">
+        <img src="img/facebook.svg" alt="facebook icon">
+        <img src="img/instagram.svg" alt="instagram icon">
       </div>
-    </div>
-    <div class="herro">
-      <h1>The best products start with Figma</h1>
-      <p>Most calendars are designed for teams. Slate is designed for freelancers.</p>
+    </nav>
+    <div class="header__hero">
+      <h1 class="hrader__title">The best products start with Figma</h1>
+      <p class="header__text">Most calendars are designed for teams. Slate is designed for freelancers.</p>
       <div class="button">
         <button>Try for free</button>
       </div>
     </div>
+  </div>
   </header>
   <main>
     <div class="features">
-      <h2>Features</h2>
-      <p>Most calendars are designed for teams.Slate is designed for freelancers</p>
+      <h2 class="features__title">Features</h2>
+      <p class="features__text">Most calendars are designed for teams.Slate is designed for freelancers</p>
     </div>
-    <div class="designed__container">
-      <div class="OpenType">
-        <img class="circlesquare" src="img/circlesquare.png" alt="circlesquare">
+    <div class="features__container">
+      <div class="features__opentype">
+        <img class="circlesquare_icon" src="img/opentype.svg" alt="circlesquare">
         <h3>OpenType features Variable fonts</h3>
         <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
       </div>
-      <div class="design__data">
-        <img class="" src="img/mdi_draw.png" alt="pensil">
+      <div class="features__design">
+        <img class="pensil_icon" src="img/design.svg" alt="pensil">
         <h3>Design with real data</h3>
         <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
       </div>
-      <div class="fastest">
-        <img src="img/tassle.png" alt="tassle">
+      <div class="features__fastest">
+        <img class="features__icon" src="img/fastest.svg" alt="tassle">
         <h3>Fastest way to take action</h3>
         <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
       </div>
     </div>
     <div class="video">
-      <img width="250" src="img/screen.png" alt="screen video">
+      <img class="video__screen" src="img/screenvideo.svg" alt="screen video">
     </div>
     <div class="organize">
-      <h2>Fastest way to organize</h2>
-      <p>Most calendars are designed for teams.Slate is designed for freelancers</p>
+      <h2 class="organize__title">Fastest way to organize</h2>
+      <p class="organize__text">Most calendars are designed for teams.Slate is designed for freelancers</p>
       <div class="button">
         <button>Try for free</button>
         <div>
-          <img class="organize__icon" width="250" src="img/MacbookPro.png" alt="Macbook">
+          <img class="organize__icon" src="img/macbook.svg" alt="Macbook">
         </div>
       </div>
       <div class="lightning">
-        <img width="250" src="img/left-container.png" alt="left-container">
+        <img src="img/person.svg" alt="left-container">
         <h3>At your fingertips</h3>
         <h2>Lightning fast prototyping </h2>
         <h3>Subscribe to our Newsletter</h3>
@@ -110,6 +122,7 @@
         </div>
       </div>
       <div class="testimonials">
+        <div class="testimonials__container"
         <h2>Testimonials</h2>
         <img class="testimonials__logo" src="img/Vector.svg" alt="abbreviation">
         <p class="testimonials__text">Most calendars are designed for teams. Slate is designed for freelancers who want
